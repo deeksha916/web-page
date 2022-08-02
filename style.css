@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.mleft {
+    height: 100%;
+    width: 70%;
+    background-color: rgb(194, 164, 11);
+    position: relative;
+    background-image: url(1.png);
+    background-size: cover;
+}
+
+.text {
+    width: 35%;
+    height: 30%;
+    top: 50%;
+    left: 15%;
+    position: absolute;
+}
+
+h1 {
+    margin-left: 8%;
+    margin-top: 4%;
+    font-size: 98px;
+    color: rgb(255, 255, 255);
+    font-family: 'Gilroy';
+}
+
+.td {
+    width: 80%;
+    height: 50%;
+    top: 50%;
+    left: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.td h5 {
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    margin-left: 8%;
+}
+
+h5:hover {
+    cursor: pointer;
+    color: black;
+}
+
+span {
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.lleft {
+    height: 25%;
+    width: 25%;
+    top: 40%;
+    right: 0%;
+    position: absolute;
+    background-image: url(4.jpg);
+    background-size: cover;
+}
+
+.lleft h2 {
+    position: absolute;
+    padding-left: 43%;
+    margin-top: 28%;
+    font-size: 40px;
+    color: rgb(15, 14, 14);
+}
+
+.mright {
+    height: 100%;
+    width: 30%;
+    background-color: rgb(12, 12, 133);
+    position: relative;
+}
+
+.dk h5 {
+    font-size: 17px;
+    color: #fff;
+    position: absolute;
+    rotate: 60%;
+}
+
+.rt {
+    height: 40%;
+    width: 70%;
+    background-color: rgb(255, 208, 0);
+    background-image: url(2.jpg);
+    background-size: cover;
+}
+
+.rmid {
+    height: 25%;
+    width: 70%;
+    align-items: center;
+    background-color: rgb(12, 12, 133);
+    font-weight: normal;
+    top: 40%
+}
+
+h6 {
+    color: aliceblue;
+    font-size: 25px;
+    padding-left: 12%;
+    padding-top: 13%;
+    font-family: 'Archivo';
+    font-weight: normal;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: 'Archivo';
+}
+
+.rbottom {
+    height: 35%;
+    width: 100%;
+    background-color: rgba(164, 113, 121, 0.751);
+    background-image: url(7.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#nav {
+    position: absolute;
+    height: 16%;
+    width: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: normal;
+}
+
+h4:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+.bt {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.button {
+    background-color: #831111b3;
+    color: #fff;
+    margin-left: 6%;
+    margin-top: 30%;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    font-weight: bolder;
+    align-items: center;
+    padding-top: 8px;
+    border-style: double;
+}
